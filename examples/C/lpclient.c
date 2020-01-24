@@ -69,7 +69,7 @@ int main()
                 }
             }
         }
-        zsock_destroy(&client);
-        return 0;
     }
+    zsock_destroy(&client);
+    return 0;
 }
